@@ -25,13 +25,13 @@ def index():
     form = RegisterForm(request.form)
     if request.method == 'POST' and form.validate():
         user_resp = put_user(form.email.data)
-        return render_template('obrigado.html')
+        return render_template('thank_you.html')
     
     return render_template('index.html', form=form)
 
 # Register Form Class
 class RegisterForm(Form):
-    email = StringField('Email', [InputRequired("Por favor insira seu email.")])
+    email = StringField('Email', [InputRequired("Please register here.")])
 
 if __name__ == '__main__':
     application.secret_key='secret123'
