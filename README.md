@@ -15,6 +15,12 @@ The setting up of an project with Autoscaling included the AWS CloudFront, AWS C
 - Migration of static Websites or Application from on-premisses to AWS Cloud environment. 
 - Cloud project focused on in a situation where the application has required a high demand of CPU and RDS.     
 
+## Commands
+
+On Bash file:
+- touch /var/app/file
+- sudo chown -R webapp:webapp /var/app/*
+
 ## Appendix
 
 
