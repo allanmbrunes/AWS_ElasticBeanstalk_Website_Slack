@@ -35,4 +35,4 @@ class RegisterForm(Form):
 
 if __name__ == '__main__':
     application.secret_key='secret123'
-    application.run(debug=True)
+    application.run(debug=True) 
